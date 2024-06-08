@@ -1,5 +1,5 @@
 import axios from "axios";
-const REST_API_BASE_URL = 'http://localhost:8080/api/v1/students'; 
+const REST_API_BASE_URL = 'http://192.168.59.100:32001/api/v1/students';
 
 export const listStudents = async () => {
     try {
